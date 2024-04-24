@@ -1,0 +1,35 @@
+Name:Hrishikesh Bhatt
+
+This file contains details about the project.
+
+
+database: "My_database"
+number of tables:05
+
+
+table 1: operator 
+attributes: op_id, name, address, phone, email
+primary key: op_id
+
+table 2: route 
+attributes: route_id, station ,s_id
+
+table3: bus
+attributes: bus_id, type, capacity, fare, route_id,op_id
+
+table4: runs
+attributes:bus_id, journey_date,seat_available
+
+table5: booking
+attributes: mobile, name, sex, age,journey_date, ticket, ref_id, fromst, tost
+
+ 
+ 
+ R o u t e s : 
+ R o u t e   1   :   G u n a - K o t a - J a i p u r 
+ R o u t e   2   :   J a i p u r - K o t a - G u n a 
+ R o u t e   3   :   G u n a - B h o p a l - D e l h i 
+ R o u t e   4   :   D e l h i - B h o p a l - G u n a 
+ 
+ R u n n i n g   d a t e s : 
+ A l l   b u s   r u n   b e t w e e n   0 1 - 1 2 - 2 0 2 2   t o   0 5 - 1 2 - 2 0 2 2   ( D D - M M - Y Y Y Y ) 
